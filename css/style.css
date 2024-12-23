@@ -1,0 +1,33 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	/* font-family: sans-serif; */
+}
+img {
+	width: 100%;
+	height: 400px;
+	object-fit: cover;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+.Users{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: rgb(94, 158, 158);
+    gap: 20px;
+    padding: 20px;
+    max-width: 100%;
+}
+
+
+.cards{
+    padding: 20px;
+    background-color: rgb(119, 136, 136);
+    /* width: 300px; */
+    border: 1px solid #ddd;;
+}
